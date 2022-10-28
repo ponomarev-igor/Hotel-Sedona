@@ -1,0 +1,58 @@
+/********************Burger***************************/
+.icon-menu {
+  display: none;
+}
+
+/*@media (max-width: 500px) {*/
+
+/*  .icon-menu{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 5px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 4.5rem;*/
+/*    height: 3.8125rem;*/
+/*    z-index: 5;*/
+/*    cursor: pointer;*/
+/*  }*/
+/*  .header__container{*/
+/*    justify-content: space-between;*/
+/*  }*/
+/*  .header__logo{*/
+/*    display: none;*/
+/*  }*/
+
+/*  .menu__body{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: -100%;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    padding: 71px 30px 30px 30px;*/
+/*    transition: left	0.3s ease-in-out 0s;*/
+/*    overflow: auto;*/
+/*    z-index: 3;*/
+/*    opacity: 1;*/
+/*    background-color:*/
+/*      rgba(20, 39, 74, 10);*/
+/*  }*/
+
+/*  .menu__body._active{*/
+/*    left: 0;*/
+
+/*  }*/
+/*  .menu__list{*/
+/*    flex-direction: column;*/
+/*  }*/
+/*  .menu__item {*/
+/*    margin-bottom: 50px;*/
+/*    font-size: 35px;*/
+/*  }*/
+/*  .menu__item :not(:last-child){*/
+/*    margin-right: 0px;*/
+/*  }*/
+/*}*/
+
