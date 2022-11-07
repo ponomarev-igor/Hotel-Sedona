@@ -1,8 +1,10 @@
-@import 'libs/null';
+
+@import 'modules/null';
 @import 'fonts/fonts';
 @import 'modules/variables';
+@import 'modules/mixin';
 @import 'style/style';
 @import 'style/header';
 @import 'style/footer';
 @import 'style/main';
-@import 'modules/burger-menu'
+@import 'components/burger-menu'

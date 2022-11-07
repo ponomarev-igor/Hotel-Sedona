@@ -7,13 +7,15 @@ $color-text:#FFFFFF;
 $colorBg:#212529;
 //**************Настройка текста******************/
 $fontfamily:'Poppins', sans-serif;
-$fontsize:16px;
+$basesize:1rem,;
 //**************Брэк поинты******************/
 $tablet: 61.99875em;
 $mobile:47.99875em ;
-$mobileSmall: 29.99875em;
-$mobilelittleSmall: 23.56125em;
+$mobileS: 29.99875em;
+$mobilelS: 23.56125em;
 //**************Настройка контейнера******************/
-$maxWidthContainer:  1430px;
-$containerPadding: 0  15px;
+$maxWidthContainer:  89.375em;
+$containerPadding: 0  0.9375em;
   $containerMargin: 0 auto;
+
+

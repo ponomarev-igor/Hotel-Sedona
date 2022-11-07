@@ -11,36 +11,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include breakpoint (mobile){
+        min-height: 70px;
+        position: fixed;
+        width: 100%;
+        background-color: $colorBg;
+      
+    }
   }
 
 
 }
 .menu {
   flex: 1 1 auto;
+  &__logo{
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    font-size:rem(50) ;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 10px;
+
+  .logo{
+    color: $color-text;
+    transition: all 0.4s ease 0s;
+    &:hover{
+      color: rgb(222, 140, 200);
+      transition: all 0.5s ease;
+    }
+  }
+  }
+
+  &__body{
+    display: flex;
+  }
 
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-  }
-
-  &__item{
-    &:nth-child(3){
-      .menu__link{
-        font-size:2rem ;
-        font-weight: bold;
-        line-height: 36px;
-        letter-spacing: 10px;
-      }
+    flex: 1 1 59%;
+    @media (max-width:1045px) {
+        flex: 1 1 53%;
+    }
+    @include breakpoint(tablet){
+      flex: 1 1 20%;
     }
   }
 
+  &__item{
+
+  }
+
   &__link {
-    font-size:1.5rem ;
+    font-size:rem(24) ;
     font-weight: bold;
     line-height: 36px;
     letter-spacing: 2px;
     color: $color-text;
+    transition: all 0.4s ease;
     &:hover{
       color: rgb(222, 140, 200);
       transition: all 0.5s ease;
@@ -48,3 +79,4 @@
   
   }
 }
+

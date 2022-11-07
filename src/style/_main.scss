@@ -5,6 +5,7 @@
     position: relative;
     min-height: 100vh;
     margin-bottom: 125px;
+    overflow: hidden;
   }
 
   &__about {
@@ -41,6 +42,17 @@
     letter-spacing: 0.3125rem;
     line-height: 150%;
     font-weight: bold;
+    @include breakpoint(mobile){
+      padding: 0px 0px 0px 0px;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+     
+      font-size: rem(20);
+      max-width: 300px;
+ 
+   
+    }
   
   }
 
@@ -52,6 +64,7 @@
       left: 0;
       top: 0;
       object-fit: cover;
+      
     }
   }
 }

@@ -9,9 +9,12 @@ body {
   color: $colormain;
   line-height: 1;
   font-family: $fontfamily;
-  font-size: $fontsize;
+  font-size: $basesize;
+  &._lock{
+    overflow: hidden;
+  }
 }
-//**************Оболочка wrapper******************/
+//**************base******************/
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -31,9 +34,6 @@ flex: 1 1 auto;
 
 }
 
-
-
-
 .none{
   display: none !important;
 }
@@ -52,3 +52,4 @@ position: relative;
     object-fit: cover;
 }
 }
+
