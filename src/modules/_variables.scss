@@ -9,13 +9,15 @@ $colorBg:#212529;
 $fontfamily:'Poppins', sans-serif;
 $basesize:1rem,;
 //**************Брэк поинты******************/
-$tablet: 61.99875em;
-$mobile:47.99875em ;
-$mobileS: 29.99875em;
-$mobilelS: 23.56125em;
+$laptop: em(1024);
+$tablet: em(991.98);
+$mobile:em(767.98) ;
+$mobileL: em(479.98);
+$mobileM: em(425.98);
+$mobileS:em(375.98);
 //**************Настройка контейнера******************/
-$maxWidthContainer:  89.375em;
-$containerPadding: 0  0.9375em;
+$maxWidthContainer:  em(1630);
+$containerPadding: 0  em(15);
   $containerMargin: 0 auto;
 
 

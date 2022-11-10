@@ -2,7 +2,12 @@
 // *******media-queries******
 
 @mixin breakpoint($point) {
-  @if $point == tablet {
+  @if $point == laptop {
+    @media (max-width:$laptop) {
+      @content;
+    }
+  }
+  @else if $point == tablet {
     @media (max-width:$tablet) {
       @content;
     }
@@ -10,16 +15,19 @@
     @media (max-width:$mobile) {
       @content;
     }
+  } @else if $point == mobileL {
+    @media (max-width:$mobileL) {
+      @content;
+    }
+  } @else if $point == mobileM {
+    @media (max-width:$mobileM) {
+      @content;
+    }
   } @else if $point == mobileS {
     @media (max-width:$mobileS) {
       @content;
     }
-  } @else if $point == mobilelS {
-    @media (max-width:$mobilelS) {
-      @content;
-    }
   }
-  
 }
 /**************************************/
 // Fonts
@@ -66,3 +74,4 @@
 	@return $result;
 }
 /**************************************/
+
