@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  color: $colormain;
+  color: $colorBlack;
   line-height: 1;
   font-family: $fontfamily;
   font-size: $basesize;
@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: #212529;
+  background: #F2F2F2;
 }
 
 [class*="__container"] {

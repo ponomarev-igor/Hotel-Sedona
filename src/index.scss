@@ -1,10 +1,15 @@
-
+// Modules
 @import 'modules/null';
-@import 'fonts/fonts';
 @import 'modules/mixin';
 @import 'modules/variables';
+// Base style
+@import 'fonts/fonts';
 @import 'style/style';
 @import 'style/header';
 @import 'style/main';
 @import 'style/footer';
+// Components
+@import 'style/components/button';
 @import 'style/components/burger-menu';
+
+

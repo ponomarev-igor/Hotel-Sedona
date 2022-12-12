@@ -2,9 +2,6 @@
 .burger-icon {
   display: none;
 }
-.logo-burger{
-  display: none;
-}
 
 .logo{
   @include breakpoint(mobile){
@@ -20,10 +17,7 @@
   .menu__logo{
     display: none;
   }
-  .logo-burger{
-    display: inline-flex;
-    }
-  
+
   .burger-icon{
     z-index: 55;
     display: block;
